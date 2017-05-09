@@ -48,6 +48,11 @@ You can generate a key at https://developers.google.com/maps/documentation/geoco
 
 ## Client API test
 ### Curl API test examples
+#### Get all coffee shops
+```
+curl -i http://localhost:3000/api/v1/shop
+```
+
 #### Get specific coffee shop
 ```
 curl -i http://localhost:3000/api/v1/shop/1
