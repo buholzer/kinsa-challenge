@@ -1,0 +1,22 @@
+'use strict';
+
+const packageJson = require('./package.json');
+
+const config = {
+	server: {
+  	name: packageJson.name,
+  	version: packageJson.version,
+  	port: process.env.PORT || 3000
+	},
+	geocoder: {
+	  provider: 'google',
+	  apiKey: 'YOUR_GECODING_API_KEY'
+	},
+	api: {
+		version: 'v1',
+		base: 'api'
+	},
+	dataPath: 'data/locations.csv'
+}
+
+module.exports = config
