@@ -1,7 +1,7 @@
 Kinsa Challenge - Coffee Shop Lovers
 ====================================
 
-This is a implementation of the Kinsa coding challenge. The goal of this test is to create an API for 
+This is an implementation of the Kinsa coding challenge. The goal of this test is to create an API for 
 finding the nearest coffee shop by providing an address.
 
 This project implements a simple restify server on Node.js 6.x that runs by default on port 3000. All CRUD operations  
